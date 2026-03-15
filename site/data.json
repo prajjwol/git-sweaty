@@ -4115,6 +4115,20 @@
       "subtype": "Run",
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-03-13",
+      "hour": 6,
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-14",
+      "hour": 8,
+      "subtype": "Run",
+      "type": "Run",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -9235,6 +9249,15 @@
           "distance": 7015.2,
           "elevation_gain": 0.0,
           "moving_time": 2858.0
+        },
+        "2026-03-14": {
+          "activity_ids": [
+            "17722187787"
+          ],
+          "count": 1,
+          "distance": 10016.5,
+          "elevation_gain": 5.5,
+          "moving_time": 4157.0
         }
       },
       "Walk": {
@@ -9393,11 +9416,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 3477.0
+        },
+        "2026-03-13": {
+          "activity_ids": [
+            "17720668414"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 3945.0
         }
       }
     }
   },
-  "generated_at": "2026-03-14T15:04:59.349359+00:00",
+  "generated_at": "2026-03-15T15:05:54.102179+00:00",
   "other_bucket": "OtherSports",
   "repo": "prajjwol/git-sweaty",
   "source": "strava",
