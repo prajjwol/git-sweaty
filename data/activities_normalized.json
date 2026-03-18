@@ -7694,5 +7694,18 @@
     "start_date_local": "2026-03-16T15:28:29Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-17",
+    "distance": 10245.6,
+    "elevation_gain": 21.0,
+    "id": "17760923068",
+    "moving_time": 4408.0,
+    "name": "400m Repeats",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-03-17T15:31:02Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
