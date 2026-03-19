@@ -7707,5 +7707,31 @@
     "start_date_local": "2026-03-17T15:31:02Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-03-18",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17768536809",
+    "moving_time": 3336.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-18T08:41:27Z",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-19",
+    "distance": 9033.0,
+    "elevation_gain": 5.6,
+    "id": "17779940105",
+    "moving_time": 4455.0,
+    "name": "9km Easy Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-03-19T06:47:15Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
