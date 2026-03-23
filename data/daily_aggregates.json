@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T15:04:37.898469+00:00",
+  "generated_at": "2026-03-23T15:20:11.941574+00:00",
   "years": {
     "2021": {
       "Elliptical": {
@@ -5192,6 +5192,15 @@
           "distance": 3947.1,
           "elevation_gain": 87.6,
           "moving_time": 2777.0
+        },
+        "2026-03-22": {
+          "activity_ids": [
+            "17818298995"
+          ],
+          "count": 1,
+          "distance": 2283.4,
+          "elevation_gain": 0.0,
+          "moving_time": 3608.0
         }
       },
       "WeightTraining": {
