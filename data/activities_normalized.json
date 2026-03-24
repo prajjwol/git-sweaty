@@ -7772,5 +7772,31 @@
     "start_date_local": "2026-03-22T07:52:26Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-03-23",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17831520931",
+    "moving_time": 1549.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-23T10:22:07Z",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-23",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17831520936",
+    "moving_time": 1812.0,
+    "name": "Morning Elliptical",
+    "raw_activity_type": "Elliptical",
+    "raw_type": "Elliptical",
+    "start_date_local": "2026-03-23T09:48:59Z",
+    "type": "Elliptical",
+    "year": 2026
   }
 ]
