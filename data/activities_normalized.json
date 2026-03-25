@@ -7798,5 +7798,18 @@
     "start_date_local": "2026-03-23T09:48:59Z",
     "type": "Elliptical",
     "year": 2026
+  },
+  {
+    "date": "2026-03-24",
+    "distance": 10155.9,
+    "elevation_gain": 5.5,
+    "id": "17847135292",
+    "moving_time": 4199.0,
+    "name": "Rolling 300s",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-03-24T14:57:10Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
