@@ -102,15 +102,18 @@ jobs:
             $env:GIT_SWEATY_BOOTSTRAP_GH_PATH = Join-Path $fakeBin "gh.cmd"
             $env:GIT_SWEATY_BOOTSTRAP_PY_LAUNCHER_PATH = Join-Path $fakeBin "py.cmd"
 
-            & "$env:GITHUB_WORKSPACE\scripts\bootstrap.ps1" `
-              --source strava `
-              --client-id smoke-client `
-              --client-secret smoke-secret `
-              --unit-system us `
-              --week-start sunday `
-              --no-browser `
-              --no-watch `
-              --no-auto-github
+            $setupArgs = @(
+              "--source", "strava",
+              "--client-id", "smoke-client",
+              "--client-secret", "smoke-secret",
+              "--unit-system", "us",
+              "--week-start", "sunday",
+              "--no-browser",
+              "--no-watch",
+              "--no-auto-github"
+            )
+
+            & "$env:GITHUB_WORKSPACE\scripts\bootstrap.ps1" -SetupArgs $setupArgs
 
             if ($LASTEXITCODE -ne 0) {
               throw "bootstrap.ps1 failed with exit code $LASTEXITCODE"
