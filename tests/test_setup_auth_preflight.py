@@ -1,6 +1,8 @@
 import os
+import io
 import subprocess
 import sys
+import urllib.error
 import unittest
 from argparse import Namespace
 from contextlib import ExitStack
@@ -21,6 +23,45 @@ def _completed_process(returncode: int, stdout: str = "", stderr: str = "") -> s
 
 
 class SetupAuthPreflightTests(unittest.TestCase):
+    def test_prompt_marks_secret_input_as_hidden(self) -> None:
+        with mock.patch("setup_auth._prompt_secret_masked", return_value=" secret ") as prompt_mock:
+            value = setup_auth._prompt(None, "STRAVA_CLIENT_SECRET", secret=True)
+
+        self.assertEqual(value, "secret")
+        prompt_mock.assert_called_once_with("STRAVA_CLIENT_SECRET (input hidden): ")
+
+    def test_exchange_code_for_tokens_includes_http_error_payload_detail(self) -> None:
+        error = urllib.error.HTTPError(
+            url=setup_auth.TOKEN_ENDPOINT,
+            code=401,
+            msg="Unauthorized",
+            hdrs=None,
+            fp=io.BytesIO(b'{"message":"Authorization Error","errors":"invalid_client"}'),
+        )
+
+        with mock.patch("setup_auth.urllib.request.urlopen", side_effect=error):
+            with self.assertRaises(RuntimeError) as exc_ctx:
+                setup_auth._exchange_code_for_tokens("client-id", "client-secret", "auth-code")
+
+        self.assertIn("HTTP status 401", str(exc_ctx.exception))
+        self.assertIn("Authorization Error", str(exc_ctx.exception))
+        self.assertIn("invalid_client", str(exc_ctx.exception))
+
+    def test_exchange_code_for_tokens_handles_http_error_without_body(self) -> None:
+        error = urllib.error.HTTPError(
+            url=setup_auth.TOKEN_ENDPOINT,
+            code=401,
+            msg="Unauthorized",
+            hdrs=None,
+            fp=io.BytesIO(b""),
+        )
+
+        with mock.patch("setup_auth.urllib.request.urlopen", side_effect=error):
+            with self.assertRaises(RuntimeError) as exc_ctx:
+                setup_auth._exchange_code_for_tokens("client-id", "client-secret", "auth-code")
+
+        self.assertEqual(str(exc_ctx.exception), "Strava token exchange failed with HTTP status 401.")
+
     def test_run_prefers_bootstrap_resolved_gh_path(self) -> None:
         with (
             mock.patch.dict(os.environ, {"GIT_SWEATY_BOOTSTRAP_GH_PATH": r"C:\tools\gh.cmd"}, clear=False),

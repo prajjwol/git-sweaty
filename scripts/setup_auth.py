@@ -236,7 +236,7 @@ def _prompt(value: Optional[str], label: str, secret: bool = False) -> str:
     if value:
         return value.strip()
     if secret:
-        return _prompt_secret_masked(f"{label}: ").strip()
+        return _prompt_secret_masked(f"{label} (input hidden): ").strip()
     return input(f"{label}: ").strip()
 
 
@@ -855,6 +855,30 @@ def _exchange_code_for_tokens(client_id: str, client_secret: str, code: str) -> 
         with urllib.request.urlopen(request, timeout=30) as response:
             body = response.read().decode("utf-8")
     except urllib.error.HTTPError as exc:
+        error_detail = ""
+        try:
+            error_body = exc.read().decode("utf-8", errors="replace").strip()
+        except Exception:
+            error_body = ""
+
+        if error_body:
+            try:
+                error_payload = json.loads(error_body)
+            except json.JSONDecodeError:
+                error_detail = error_body
+            else:
+                message = str(error_payload.get("message") or "").strip()
+                error_name = str(error_payload.get("errors") or "").strip()
+                details = [value for value in (message, error_name) if value]
+                if details:
+                    error_detail = "; ".join(details)
+                else:
+                    error_detail = error_body
+
+        if error_detail:
+            raise RuntimeError(
+                f"Strava token exchange failed with HTTP status {exc.code}: {error_detail}"
+            ) from None
         raise RuntimeError(f"Strava token exchange failed with HTTP status {exc.code}.") from None
     except urllib.error.URLError as exc:
         reason = getattr(exc, "reason", "unknown network error")
