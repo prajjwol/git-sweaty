@@ -7850,5 +7850,18 @@
     "start_date_local": "2026-03-27T11:02:52Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-03-28",
+    "distance": 13013.3,
+    "elevation_gain": 14.0,
+    "id": "17890409534",
+    "moving_time": 5499.0,
+    "name": "13km Hotspot Long Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-03-28T07:19:44Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
