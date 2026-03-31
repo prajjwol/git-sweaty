@@ -4241,6 +4241,13 @@
       "subtype": "WeightTraining",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-03-30",
+      "hour": 9,
+      "subtype": "Elliptical",
+      "type": "Elliptical",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -9199,6 +9206,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1812.0
+        },
+        "2026-03-30": {
+          "activity_ids": [
+            "17915916880"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 3069.0
         }
       },
       "Ride": {
@@ -9689,7 +9705,7 @@
       }
     }
   },
-  "generated_at": "2026-03-30T15:25:43.226204+00:00",
+  "generated_at": "2026-03-31T15:24:20.317893+00:00",
   "other_bucket": "OtherSports",
   "repo": "prajjwol/git-sweaty",
   "source": "strava",
