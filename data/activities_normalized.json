@@ -7889,5 +7889,18 @@
     "start_date_local": "2026-03-30T09:37:20Z",
     "type": "Elliptical",
     "year": 2026
+  },
+  {
+    "date": "2026-03-31",
+    "distance": 7569.8,
+    "elevation_gain": 0.0,
+    "id": "17926915779",
+    "moving_time": 3139.0,
+    "name": "2 Mile Time Trial",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-03-31T08:32:15Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
