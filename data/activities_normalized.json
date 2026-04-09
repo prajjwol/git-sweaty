@@ -7980,5 +7980,18 @@
     "start_date_local": "2026-04-07T11:04:41Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-04-08",
+    "distance": 6552.0,
+    "elevation_gain": 8.4,
+    "id": "18028827554",
+    "moving_time": 2870.0,
+    "name": "Progressive Mile Repeats",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-08T08:07:57Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
