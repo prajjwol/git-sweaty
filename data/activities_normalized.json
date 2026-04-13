@@ -8032,5 +8032,18 @@
     "start_date_local": "2026-04-10T18:21:40Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-04-12",
+    "distance": 10031.3,
+    "elevation_gain": 4.5,
+    "id": "18082975349",
+    "moving_time": 4548.0,
+    "name": "10km Progressive Repeat Long Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-12T08:56:01Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
