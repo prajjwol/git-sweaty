@@ -8045,5 +8045,31 @@
     "start_date_local": "2026-04-12T08:56:01Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-04-13",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "18095716376",
+    "moving_time": 3293.0,
+    "name": "Lunch Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-04-13T11:05:37Z",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-14",
+    "distance": 7964.3,
+    "elevation_gain": 15.6,
+    "id": "18105885593",
+    "moving_time": 3569.0,
+    "name": "Tempo 2-1-1",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-14T07:23:56Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
