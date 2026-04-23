@@ -8162,5 +8162,18 @@
     "start_date_local": "2026-04-21T06:58:14Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-04-22",
+    "distance": 9181.8,
+    "elevation_gain": 4.5,
+    "id": "18216120663",
+    "moving_time": 3747.0,
+    "name": "Progressive Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-22T10:35:14Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
