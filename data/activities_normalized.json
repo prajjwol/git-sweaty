@@ -8214,5 +8214,18 @@
     "start_date_local": "2026-04-29T10:33:42Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-04-30",
+    "distance": 8024.5,
+    "elevation_gain": 4.5,
+    "id": "18323128286",
+    "moving_time": 3562.0,
+    "name": "8km Long Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-30T11:13:20Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
