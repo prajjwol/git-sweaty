@@ -8240,5 +8240,18 @@
     "start_date_local": "2026-05-02T08:17:28Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-03",
+    "distance": 8027.0,
+    "elevation_gain": 4.6,
+    "id": "18363034372",
+    "moving_time": 3335.0,
+    "name": "8km Easy Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-03T09:17:36Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
