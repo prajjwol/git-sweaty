@@ -8253,5 +8253,18 @@
     "start_date_local": "2026-05-03T09:17:36Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-05",
+    "distance": 10197.1,
+    "elevation_gain": 5.0,
+    "id": "18391059827",
+    "moving_time": 4125.0,
+    "name": "Seattle - W5 Tue Tempo - Over and Unders 1",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-05T11:47:53Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
