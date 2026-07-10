@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T17:11:10.483285+00:00",
+  "generated_at": "2026-07-10T16:49:43.275147+00:00",
   "years": {
     "2021": {
       "Elliptical": {
@@ -5664,6 +5664,15 @@
           "distance": 2007.5,
           "elevation_gain": 0.0,
           "moving_time": 2050.0
+        },
+        "2026-07-10": {
+          "activity_ids": [
+            "19255721235"
+          ],
+          "count": 1,
+          "distance": 2005.7,
+          "elevation_gain": 0.0,
+          "moving_time": 1867.0
         }
       },
       "WeightTraining": {
@@ -5937,6 +5946,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 4070.0
+        },
+        "2026-07-10": {
+          "activity_ids": [
+            "19255968251"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1226.0
         }
       }
     }
