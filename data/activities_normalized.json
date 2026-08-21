@@ -8721,5 +8721,18 @@
     "start_date_local": "2026-08-20T06:10:23Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-08-21",
+    "distance": 1258.6,
+    "elevation_gain": 0.0,
+    "id": "19837777447",
+    "moving_time": 1835.0,
+    "name": "Morning Walk",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-08-21T06:49:49Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]
