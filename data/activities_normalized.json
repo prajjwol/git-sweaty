@@ -8864,5 +8864,18 @@
     "start_date_local": "2026-09-06T08:31:27Z",
     "type": "Pilates",
     "year": 2026
+  },
+  {
+    "date": "2026-09-07",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "20075365119",
+    "moving_time": 4247.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-09-07T07:29:19Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]

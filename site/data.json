@@ -4773,6 +4773,13 @@
       "subtype": "Pilates",
       "type": "Pilates",
       "year": 2026
+    },
+    {
+      "date": "2026-09-07",
+      "hour": 7,
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -10905,11 +10912,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 2701.0
+        },
+        "2026-09-07": {
+          "activity_ids": [
+            "20075365119"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 4247.0
         }
       }
     }
   },
-  "generated_at": "2026-09-06T17:24:15.091124+00:00",
+  "generated_at": "2026-09-07T18:54:53.627930+00:00",
   "other_bucket": "OtherSports",
   "repo": "prajjwol/git-sweaty",
   "source": "strava",
