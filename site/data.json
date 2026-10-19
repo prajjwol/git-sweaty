@@ -4878,6 +4878,20 @@
       "subtype": "Walk",
       "type": "Walk",
       "year": 2026
+    },
+    {
+      "date": "2026-10-18",
+      "hour": 17,
+      "subtype": "Walk",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-19",
+      "hour": 11,
+      "subtype": "Walk",
+      "type": "Walk",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -10701,6 +10715,24 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 2339.0
+        },
+        "2026-10-18": {
+          "activity_ids": [
+            "20642073973"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2939.0
+        },
+        "2026-10-19": {
+          "activity_ids": [
+            "20651510338"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1019.0
         }
       },
       "WeightTraining": {
@@ -11149,7 +11181,7 @@
       }
     }
   },
-  "generated_at": "2026-10-18T17:38:28.410848+00:00",
+  "generated_at": "2026-10-19T20:17:00.067455+00:00",
   "other_bucket": "OtherSports",
   "repo": "prajjwol/git-sweaty",
   "source": "strava",
