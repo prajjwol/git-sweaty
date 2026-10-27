@@ -4941,6 +4941,13 @@
       "subtype": "Walk",
       "type": "Walk",
       "year": 2026
+    },
+    {
+      "date": "2026-10-26",
+      "hour": 23,
+      "subtype": "Yoga",
+      "type": "Yoga",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -11274,10 +11281,21 @@
           "elevation_gain": 0.0,
           "moving_time": 3219.0
         }
+      },
+      "Yoga": {
+        "2026-10-26": {
+          "activity_ids": [
+            "20746711350"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1559.0
+        }
       }
     }
   },
-  "generated_at": "2026-10-26T20:12:48.278165+00:00",
+  "generated_at": "2026-10-27T19:44:10.533985+00:00",
   "other_bucket": "OtherSports",
   "repo": "prajjwol/git-sweaty",
   "source": "strava",
@@ -11321,6 +11339,10 @@
     "Workout": {
       "accent": "#ff8a5b",
       "label": "Other Workout"
+    },
+    "Yoga": {
+      "accent": "#f15bb5",
+      "label": "Yoga"
     }
   },
   "types": [
@@ -11333,7 +11355,8 @@
     "Run",
     "Walk",
     "WeightTraining",
-    "Workout"
+    "Workout",
+    "Yoga"
   ],
   "units": {
     "distance": "km",

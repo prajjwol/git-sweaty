@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:12:48.264611+00:00",
+  "generated_at": "2026-10-27T19:44:10.526522+00:00",
   "years": {
     "2021": {
       "Elliptical": {
@@ -6330,6 +6330,17 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 3219.0
+        }
+      },
+      "Yoga": {
+        "2026-10-26": {
+          "activity_ids": [
+            "20746711350"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1559.0
         }
       }
     }

@@ -9176,5 +9176,18 @@
     "start_date_local": "2026-10-25T18:10:00Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-10-26",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "20746711350",
+    "moving_time": 1559.0,
+    "name": "Night Yoga",
+    "raw_activity_type": "Yoga",
+    "raw_type": "Yoga",
+    "start_date_local": "2026-10-26T23:00:00Z",
+    "type": "Yoga",
+    "year": 2026
   }
 ]
