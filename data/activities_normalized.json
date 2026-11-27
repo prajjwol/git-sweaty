@@ -9306,5 +9306,18 @@
     "start_date_local": "2026-11-19T11:25:00Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-11-27",
+    "distance": 6711.4,
+    "elevation_gain": 43.7,
+    "id": "21143168707",
+    "moving_time": 3262.0,
+    "name": "Morning Workout",
+    "raw_activity_type": "Workout",
+    "raw_type": "Workout",
+    "start_date_local": "2026-11-27T10:01:17Z",
+    "type": "Workout",
+    "year": 2026
   }
 ]
